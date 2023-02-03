@@ -105,7 +105,7 @@
 
                             <div>
                                 <RouterLink to="/dashboard">
-                                <button type="submit" class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-gradient-to-r from-fuchsia-600 to-blue-600 focus:outline-none hover:opacity-80 focus:opacity-80">
+                                <button type="submit" class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-gradient-to-r from-blue-900 to-blue-500 focus:outline-none hover:opacity-80 focus:opacity-80">
                                     Log in
                                 </button>
                                 </RouterLink>

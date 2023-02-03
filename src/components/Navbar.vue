@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full h-20 bg-blue-600">
+  <header class="w-full h-20 bg-blue-600 shadow-3d">
     <div class="grid grid-cols-2">
       <!-- col 1 nav -->
       <div class="w-full h-20 relative flex justify-start items-center p-3 gap-x-2">
@@ -66,8 +66,8 @@ export default {
   },
   methods: {
     toggleBox() {
-      this.box1Collapse = !this.box2Collapse;
-      this.box2Collapse = !this.box1Collapse;
+      this.box1Collapse = !this.box1Collapse;
+      this.box2Collapse = !this.box2Collapse;
     }
   }
 };

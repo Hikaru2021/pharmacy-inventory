@@ -1,6 +1,6 @@
 <template>
     <div class="p-6 bg-transparent w-full h-full justify-center items-center">
-        <div class="bg-white mb-2 w-full h-4/5 border-2 border-black rounded-lg ">
+        <div class="bg-white mb-2 w-full h-4/5 border-2 border-black rounded-lg shadow-3d">
           <div>
             <el-table :data="tableData" class="w-full h-64 rounded-md">
             <el-table-column fixed prop="date" label="Date" width="250" />
@@ -68,3 +68,9 @@ const onAddItem = () => {
   })
 }
 </script>
+
+<style>
+.shadow-3d {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+</style>

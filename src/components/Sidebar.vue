@@ -1,7 +1,7 @@
 <template>
     <div class="w-64 h-screen flex">
       <!-- side bar -->
-      <aside class="h-screen w-64 border-gray-300 border-2 bg-transparent absolute top-20 left-0 p-5">
+      <aside class="h-screen w-64 border-gray-300 border-r bg-transparent absolute top-20 left-0 p-5">
         <div class="ml-6 flex flex-col justify-between items-start">
           <div class="font-bold mt-10 mb-10"> 
             <button class="bg-blue-700 text-white w-40 p-4 rounded-3xl hover:bg-yellow-400">+ Quick Add</button> 
@@ -24,7 +24,7 @@
           </div>
           <div class="font-bold flex mb-8">
             <img src="/vendor.png" class="w-9 h-9 mr-2">
-            <router-link to="/vendors"><button class="focus:outline-none focus:text-white">VENDORS</button></router-link>
+            <router-link to="/vendors"><button class="focus:outline-none focus:text-white">BRANCH</button></router-link>
           </div>
           <div class="bg-blue-600 p-5 rounded-2xl">
             <p class="text-center">Have some questions?</p>
